@@ -1,0 +1,6 @@
+autopep8
+gensim
+janome
+pillow
+keras
+tensorflow
