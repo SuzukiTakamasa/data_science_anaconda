@@ -3,6 +3,8 @@ FROM continuumio/anaconda3:2019.03
 WORKDIR /working-directory
 
 COPY requirements.txt /working-directory/
+
+RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 EXPOSE 8888
