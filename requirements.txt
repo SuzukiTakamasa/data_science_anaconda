@@ -4,3 +4,6 @@ janome
 pillow
 keras
 tensorflow
+torch
+torchvision
+torchaudio
